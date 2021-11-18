@@ -1,0 +1,66 @@
+body{
+    background: url(../images/dice_tray.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0px;
+}
+
+#table{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(61,90,166,0.2);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.player{
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    height: 100%;
+}
+
+h2{
+    font-size: 7vw;
+    margin: 0px;
+    color: black;
+    text-align: center;
+    width: 100%;
+    height: 15%;
+}
+
+.image{
+    width: 55%;
+    display: block;
+}
+
+p{
+    font-size: 15vw;
+    margin: 0px;
+    width: 40%;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+button{
+    background-color: rgb(61,90,166,0.4);
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    width: 100%;
+}
+
+button:hover{
+    background-color: rgb(61,90,166);
+}
