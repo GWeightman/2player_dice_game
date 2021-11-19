@@ -7,7 +7,7 @@ body{
 #table{
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(112,75,62, 0.3);
+    background-color: rgb(61,90,166,0.2);
     position: absolute;
     top: 0px;
     right: 0px;
@@ -22,23 +22,9 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: space-around;
     height: 100%;
     
-}
-
-h2{
-    font-size: 7vw;
-    margin: 0px;
-    color: black;
-    text-align: center;
-    width: 100%;
-}
-
-p{
-    font-size: 550px;
-    margin: 0px;
-    width: 100%;
-    text-align: center;
 }
 
 #dice_roll{
@@ -55,22 +41,30 @@ img{
     align-content: center;
 }
 
+p{
+    font-size: 14vw;
+    margin: 0px;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+}
+
 .container{
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 19%;
 }
 button{
-    background-color: rgb(99,112,62, 0.4);
+    background-color: rgb(61,90,166,0.4);
     font-size: 50px;
     font-weight: bold;
     color: black;
-    -webkit-text-stroke: rgb(128,115,71) 0.5px;
     width: 100%;
     height: 100%;
 }
 
 
 button:hover{
-    background-color: rgb(99,112,62);
+    background-color: rgb(61,90,166);
 }

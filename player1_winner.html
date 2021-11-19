@@ -2,27 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/lose.css">
+    <link rel="stylesheet" href="css/winner.css">
     <title>1 Player Dice Game</title>
 </head>
 <body>
     <div id="table">
         <div id="current_score">
-            <h2>Current Score</h2>
-            <p>You Win!</p>
-        </div>
-
-        <div id="dice_roll">
-            <h2>Dice Roll</h2>
-
-            <div >
-                <img id="image" src="images/celebration.gif"
+            <div>
+                <img src="images/celebration.gif" alt="party balloons">
             </div>
         </div>
 
-        <div class="container">
-            <button onclick="document.location.href=`game.html`">Start Again</button>
+        <div id="dice_roll">
+            <p>Player 1 Wins!</p>
+            <div class="container">
+                <button onclick="document.location.href =`index.html`">Start Again</button>
+            </div>
         </div>
+        
     </div>
     <script src="scripts/restart.js"></script>
 </body>
